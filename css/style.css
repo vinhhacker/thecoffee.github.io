@@ -69,11 +69,12 @@ section{
     font-size: 1.7rem;
     color:#fff;
     background: var(--main-color);
+    border-radius: 2%;
     cursor: pointer;
 }
 
 .btn:hover {
-    letter-spacing: .2rem;
+    letter-spacing: .3rem;
 }
 
 .header {
@@ -193,7 +194,7 @@ section{
 }
 
 .header .cart-items-container .cart-items .content h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:var(--black);
     padding-bottom: .5rem;
 }
@@ -281,6 +282,12 @@ section{
 
 .menu .box-container .box image {
     height: 10rem;
+}
+
+.menu .box-container .box .imgs {
+    height: 200px;
+    width: 200px;
+    border-radius: 3%;
 }
 
 .menu .box-container .box h3 {
@@ -566,6 +573,12 @@ section{
 
 
 /* media queries */
+
+@media (min-width:1024px) {
+    .about .row .image img{
+        height: 400px;
+    }
+}
 @media (max-width:991px) {
     html {
         font-size: 55%;
