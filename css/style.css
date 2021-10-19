@@ -641,11 +641,18 @@ section{
     .home .content p {
         font-size: 1.5rem;
     }
+    .review .box-container .box .user-avatar {
+        height: 96px;
+        width: 96px;
+        border-radius: 50%;
 }
 
 @media (max-width:450px) {
     html {
         font-size: 50%;
     }
-
+    .review .box-container .box .user-avatar {
+        height: 96px;
+        width: 96px;
+        border-radius: 50%;
 }
