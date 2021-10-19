@@ -574,9 +574,6 @@ section{
     color:var(--main-color);
 }
 
-
-
-
 /* media queries */
 
 @media (min-width:1024px) {
@@ -648,6 +645,7 @@ section{
 }
 
 @media (max-width:450px) {
+    
     html {
         font-size: 50%;
     }
@@ -655,4 +653,5 @@ section{
         height: 96px;
         width: 96px;
         border-radius: 50%;
+    }
 }
